@@ -11,15 +11,19 @@ Template created by [LyraThemes.com](https://www.lyrathemes.com/vega/) and it is
 
 Theme development is still in progress, another pages will be added soon.
 
+## Contributing
+
+**Feel free to send pullrequest!** Please send pull request to master branch.
+
 ## Future plans
 
 - [ ] remove eshop assets
 - [ ] blog articles (list + archive + detail)
 - [ ] blog RSS feed + meta alternate tags
-
-## Contributing
-
-**Feel free to send pullrequest!** Please send pull request to master branch.
+- [ ] settings switch for enable/disable Wow effect
+- [ ] integrate some contact form plugin
+- [ ] load Lato font from local
+- [ ] load Facebook by original way
 
 ## Copyright and License
 
