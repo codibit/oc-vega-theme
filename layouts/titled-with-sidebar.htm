@@ -1,4 +1,4 @@
-description = "Default layout"
+description = "Default layout with title and sidebar"
 ==
 <?php
 function onStart() {
@@ -47,16 +47,25 @@ function onStart() {
 {% partial 'modules/header' %}
 {% partial 'modules/nav' %}
 
+<div class="jumbotron banner-none">
+    <div class="container">
+        <h1 class="block-title wow zoomIn" >{{ this.page.title }}</h1>
+    </div>
+</div>
+
 <div class="section page-content bg-white">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="page type-page status-publish hentry">
+            <div class="col-md-9">
+                <div class="clearfix page type-page status-publish hentry">
                     <h3 class="page-title">{{ this.page.title }}</h3>
                     <div class="page-content">
                         {% page %}
                     </div>
                 </div>
+            </div>
+            <div class="col-md-3 sidebar">
+                {% partial 'modules/sidebar' %}
             </div>
         </div>
     </div>

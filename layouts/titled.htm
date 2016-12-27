@@ -1,4 +1,4 @@
-description = "Default layout"
+description = "Default layout with title"
 ==
 <?php
 function onStart() {
@@ -46,6 +46,12 @@ function onStart() {
 
 {% partial 'modules/header' %}
 {% partial 'modules/nav' %}
+
+<div class="jumbotron banner-none">
+    <div class="container">
+        <h1 class="block-title wow zoomIn" >{{ this.page.title }}</h1>
+    </div>
+</div>
 
 <div class="section page-content bg-white">
     <div class="container">

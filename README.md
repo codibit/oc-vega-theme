@@ -4,12 +4,23 @@ Vega is a clean, one page business theme. It can be used as **personal blog** or
 as **single page website**. It has a custom template to showcase special timeless elements/information.
 
 - **three pre-built color schemes** that can be switched
-- fully **responsive**
+- fully **responsive**, build on **Bootstrap**
 - **Font Awesome** and **Glyph Icons** included
+- preconfigured **RainLab.Blog** integration
 
 Template created by [LyraThemes.com](https://www.lyrathemes.com/vega/) and it is ported to OctoberCMS.
 
 Theme development is still in progress, another pages will be added soon.
+
+## Templates
+
+Theme is shipped with this templates:
+
+- homepage
+- normal page
+- page with title
+- page with sidebar
+- page with title and sidebar
 
 ## Contributing
 

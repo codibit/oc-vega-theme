@@ -1,4 +1,4 @@
-description = "Default layout"
+description = "Homepage layout"
 ==
 <?php
 function onStart() {
@@ -47,20 +47,7 @@ function onStart() {
 {% partial 'modules/header' %}
 {% partial 'modules/nav' %}
 
-<div class="section page-content bg-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page type-page status-publish hentry">
-                    <h3 class="page-title">{{ this.page.title }}</h3>
-                    <div class="page-content">
-                        {% page %}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{% page %}
 
 {% partial 'modules/footer' %}
 {% partial 'modules/copyright' %}

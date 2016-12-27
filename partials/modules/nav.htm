@@ -26,20 +26,17 @@
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown">
                         <a title="Features" href="#" data-toggle="dropdown" class="dropdown-toggle">Features <b class="fa fa-angle-down"></b></a>
                         <ul role="menu" class=" dropdown-menu">
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                                <a title="Front Page - Full Screen Image Banner" target="_blank" href="#">Front Page &#8211; Full Screen Image Banner</a>
-                            </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                                <a title="Front Page - Image Banner" href="#">Front Page &#8211; Image Banner</a>
-                            </li>
-                            <li class="divider menu-item menu-item-type-custom menu-item-object-custom">
-                                <a title="---" href="#">&#8212;</a>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                <a title="Page - Normal" href="{{ 'samples/page-normal' | page }}">Page &#8211; Normal</a>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                <a title="Page - Full Width" href="#">Page &#8211; Full Width</a>
+                                <a title="Page - Full Width" href="{{ 'samples/page-with-title' | page }}">Page &#8211; With title</a>
                             </li>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                                <a title="Page - With Sidebar" href="#">Page &#8211; With Sidebar</a>
+                                <a title="Page - With Sidebar" href="{{ 'samples/page-with-sidebar' | page }}">Page &#8211; With Sidebar</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                <a title="Page - With Sidebar and title" href="{{ 'samples/page-with-sidebar-and-title' | page }}">Page &#8211; With Sidebar and title</a>
                             </li>
                             <li class="divider menu-item menu-item-type-custom menu-item-object-custom">
                                 <a title="---" href="#">&#8212;</a>
