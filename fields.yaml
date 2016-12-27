@@ -17,3 +17,8 @@ fields:
             orange: Orange
             blue: Blue
             green: Green
+    intro_fullscreen:
+        label: Intro fullscreen
+        type: switch
+        default: false
+        comment: Intro image is fullscreen
