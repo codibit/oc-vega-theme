@@ -28,9 +28,10 @@ Theme is shipped with this templates:
 
 ## Future plans
 
-- [ ] remove eshop assets
 - [ ] blog articles (list + archive + detail)
 - [ ] blog RSS feed + meta alternate tags
+- [ ] connect recent articles to sidebar
+- [ ] integrate some fulltext search to sidebar
 - [ ] settings switch for enable/disable Wow effect
 - [ ] integrate some contact form plugin
 - [ ] load Lato font from local

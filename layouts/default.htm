@@ -31,6 +31,7 @@ function onStart() {
             background-image: url({{ 'assets/images/flags/de.png' | theme }}); background-repeat: no-repeat;
         }
     </style>
+    {% styles %}
 
     <link hreflang="en" href="{{ baseUrl }}/en/" rel="alternate" />
     <link hreflang="de" href="{{ baseUrl }}/de/" rel="alternate" />
@@ -42,7 +43,7 @@ function onStart() {
     <meta name="msapplication-TileImage" content="{{ 'assets/images/favicons/cropped-vega-favicon-300x300.png' | theme }}" />
 
 </head>
-<body class="{{ this.page.id }} page page-{{ this.page.id }}">
+<body class="{{ this.page.id }} page page-{{ this.page.id }} {% placeholder bodyclass %}">
 
 {% partial 'modules/header' %}
 {% partial 'modules/nav' %}
@@ -84,6 +85,7 @@ var jpfbembed = {"appid":"249643311490", "locale":"en_US"};
 </script>
 <script type="text/javascript" src="{{ 'assets/js/jetpack/facebook-embed.js' | theme }}"></script>
 <script type="text/javascript" src="{{ 'assets/js/wp-embed.min.js' | theme }}"></script>
+{% scripts %}
 
 </body>
 </html>
