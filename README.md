@@ -21,6 +21,11 @@ Theme is shipped with this templates:
 - page with title
 - page with sidebar
 - page with title and sidebar
+- blog listing with full posts
+- blog listing with small image and excerpt
+- blog listing only with excerpt
+- blog detail with full width
+- blog detail with sidebar
 
 ## Contributing
 
@@ -28,12 +33,7 @@ Theme is shipped with this templates:
 
 ## Future plans
 
-- [ ] blog articles (list + archive + detail)
-- [ ] blog RSS feed + meta alternate tags
-- [ ] connect recent articles to sidebar
-- [ ] integrate some fulltext search to sidebar
 - [ ] settings switch for enable/disable Wow effect
-- [ ] integrate some contact form plugin
 - [ ] load Lato font from local
 - [ ] load Facebook by original way
 
