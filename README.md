@@ -8,8 +8,6 @@ Vega is a clean, one page business theme. It can be used as **personal blog** or
 
 Template created by [LyraThemes.com](https://www.lyrathemes.com/vega/) and it is ported to OctoberCMS.
 
-Theme development is still in progress, another pages will be added soon.
-
 ## Templates
 
 Theme is shipped with this templates:
